@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+🚀 Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich, modern Social Media Application built using cutting-edge technologies to deliver an exceptional user experience.
 
-Currently, two official plugins are available:
+🌟 Features
+User Authentication:
+Secure signup and login using Firebase Auth.
+News Feed:
+Displays posts from followed users dynamically.
+Smooth infinite scrolling for a seamless experience.
+Posting:
+Create posts with text and images.
+Tag/mention other users in your posts.
+Follow/Unfollow:
+Stay connected by following or unfollowing users effortlessly.
+Type Safety:
+Fully typed codebase with TypeScript for safety and reliability.
+Modern UI:
+Beautifully styled with Tailwind CSS.
+Optimized Data Fetching:
+Efficient data fetching and caching with TanStack React Query.
+Form Validation:
+Robust form handling using React Hook Form and Zod Schema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+Frontend:
+React.js + Vite
+Styling:
+Tailwind CSS
 
-## Expanding the ESLint configuration
+GraphQL:
+Flexible API integration using GraphQL.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Authentication:
+Firebase Auth for secure login and signup.
 
-- Configure the top-level `parserOptions` property like this:
+Form Handling:
+React Hook Form + Zod Schema.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+State Management:
+TanStack React Query for optimized server-state management.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Language:
+TypeScript for type-safe development.
